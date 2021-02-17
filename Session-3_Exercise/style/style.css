@@ -1,0 +1,124 @@
+/* -------------------------------------------------------- */
+/* ------------------ Put your CSS here! ------------------ */
+/* -------------------------------------------------------- */
+body {
+    margin: 0;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+figure {
+    margin: 0;
+}
+
+nav {
+    background-color: white;
+    padding: 20px 0;
+}
+
+header {
+    background-image: url("../images/architecture-hero-shot-web.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 300px 0;
+}
+
+    h1 {
+        font-size: 80px;
+        margin: 0;
+    }
+
+    h4 {
+        font-size: 48px;
+        font-weight: lighter;
+        margin: 0;
+    }
+
+.mainContent {
+    padding: 75px 0;
+}
+
+    .mainContent div {
+        width: 580px;
+    }
+
+    h2 {
+        font-size: 30px;
+        padding-left: 20px;
+        border-left: solid 8px #ff490a;
+    }
+
+    .sectionB {
+        margin-top: 50px;
+        margin-left: 380px;
+    }
+
+.pictures {
+    width: 100%;
+    min-width: 960px;
+}
+    .pictures img {
+        width: 100%;
+        margin: 30px 0;
+    }
+
+.quote {
+    margin: 75px 0;
+    background-color: white;
+    border: 5px solid black;
+    padding: 25px;
+    text-align: center;
+    font-style: italic;
+}
+
+    .author {
+        font-weight: bold;
+        font-style: normal;
+    }
+
+footer {
+    width: 100%;
+    background-color: black;
+    margin: 200px 0 0 0;
+    padding: 15px 0;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+    footer p {
+        margin: 0;
+    }
+
+    .copyrights {
+        font-weight: normal;
+    }
+
+
+/* -------------------------------------------------------- */
+/* ---------------------- Responsive ---------------------- */
+/* -------------------------------------------------------- */
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+
+}
+ 
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+
+}
+
